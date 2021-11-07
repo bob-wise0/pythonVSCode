@@ -12,9 +12,6 @@ import { PipInstaller } from './pipInstaller';
 import { PoetryInstaller } from './poetryInstaller';
 import {
     DataScienceProductPathService,
-    FormatterProductPathService,
-    LinterProductPathService,
-    TestFrameworkProductPathService,
 } from './productPath';
 import { ProductService } from './productService';
 import {
@@ -45,17 +42,7 @@ export function registerTypes(serviceManager: IServiceManager) {
     );
 
     serviceManager.addSingleton<IProductService>(IProductService, ProductService);
-    serviceManager.addSingleton<IProductPathService>(
-        IProductPathService,
-        FormatterProductPathService,
-        ProductType.Formatter,
-    );
-    serviceManager.addSingleton<IProductPathService>(IProductPathService, LinterProductPathService, ProductType.Linter);
-    serviceManager.addSingleton<IProductPathService>(
-        IProductPathService,
-        TestFrameworkProductPathService,
-        ProductType.TestFramework,
-    );
+
     serviceManager.addSingleton<IProductPathService>(
         IProductPathService,
         DataScienceProductPathService,
