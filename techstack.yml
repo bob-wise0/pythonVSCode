@@ -1,11 +1,12 @@
 repo_name: bob-wise0/pythonVSCode
-report_id: c3004e92841bbec4b0b2c344b1dbc0c1
+report_id: bb76530563cf00ece41a575c29d355dc
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-08T21:05:07+00:00'
+timestamp: '2024-03-28T08:30:39+00:00'
 requested_by: karthiknadig
 provider: github
 branch: main
-detected_tools_count: 97
+detected_tools_count: 108
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,17 +28,21 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode
   detection_source: Repo Metadata
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source: Repo Metadata
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/dev-requirements.txt
+  detection_source: ".github/assign-reviewers/dev-requirements.txt"
+  last_updated_by: Brett Cannon
+  last_updated_on: 2020-12-01 17:51:11.000000000 Z
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
   website_url: http://www.typescriptlang.org
@@ -46,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode
   detection_source: Repo Metadata
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
@@ -58,8 +65,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: vscode-python-signing.csproj
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/vscode-python-signing.csproj
   detection_source: vscode-python-signing.csproj
+  last_updated_by: Mikhail Arkhipov
+  last_updated_on: 2018-03-30 20:44:07.000000000 Z
 - name: ASP.NET Core
   description: A cross-platform .NET framework for building modern cloud-based web
     applications on Windows, Mac, or Linux
@@ -71,8 +80,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: vscode-python-signing.csproj
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/vscode-python-signing.csproj
   detection_source: vscode-python-signing.csproj
+  last_updated_by: Mikhail Arkhipov
+  last_updated_on: 2018-03-30 20:44:07.000000000 Z
 - name: Django
   description: The Web framework for perfectionists with deadlines
   website_url: https://www.djangoproject.com/
@@ -82,7 +93,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/994/4aGjtNQv.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
   detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
 - name: Flask
   description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
   website_url: http://flask.pocoo.org/
@@ -92,7 +106,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img-dev.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
   detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
 - name: Matplotlib
   description: A plotting library for the Python programming language
   website_url: http://matplotlib.org
@@ -101,17 +118,24 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/smoke-test-requirements.txt
   detection_source: build/smoke-test-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-10-26 23:34:37.000000000 Z
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
     fast, scalable network applications
   website_url: http://nodejs.org/
+  version: 14.18.2
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-12-13 16:26:09.000000000 Z
 - name: RxJS
   description: The Reactive Extensions for JavaScript
   website_url: http://reactivex.io/rxjs/
@@ -121,8 +145,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: Chai
   description: A BDD / TDD assertion library
   website_url: http://chaijs.com/
@@ -133,8 +159,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
   website_url: http://eslint.org/
@@ -144,7 +172,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2020-09-03 19:58:25.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -153,6 +184,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -162,7 +194,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test-plan-item-validator.yml"
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/workflows/assign-reviewers.yml
+  detection_source: ".github/workflows/assign-reviewers.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-05 09:03:27.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -174,8 +209,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source_url: package-lock.json
-  detection_source: ".github/workflows/pr-check.yml"
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: ".github/assign-reviewers.yml"
+  last_updated_by: Brett Cannon
+  last_updated_on: 2020-11-30 21:09:29.000000000 Z
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
     browser
@@ -187,10 +224,24 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-03-24 00:24:26.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.0.2
   license: MIT
@@ -199,8 +250,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: Pylint
   description: Source-code, bug and quality checker for the Python programming language
   website_url: https://www.pylint.org/
@@ -210,7 +263,22 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4837/py.jpg
-  detection_source: build/test-requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/dev-requirements.txt
+  detection_source: ".github/assign-reviewers/dev-requirements.txt"
+  last_updated_by: Brett Cannon
+  last_updated_on: 2020-12-01 17:51:11.000000000 Z
 - name: SinonJS
   description: Standalone test spies, stubs and mocks for JavaScript
   website_url: http://sinonjs.org/
@@ -220,8 +288,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: rchiodo
+  last_updated_on: 2020-09-22 00:22:45.000000000 Z
 - name: Webpack
   description: A bundler for javascript and friends
   website_url: http://webpack.js.org
@@ -232,8 +302,22 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
 - name: gulp
   description: The streaming build system
   website_url: http://gulpjs.com/
@@ -244,8 +328,23 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-08-10 20:58:07.000000000 Z
+- name: isort
+  description: A Python utility / library to sort imports
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -254,7 +353,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: pytest
   description: A full-featured Python testing tool to help you write better programs
   website_url: http://pytest.org/latest/
@@ -265,8 +367,44 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: news/requirements.txt
-  detection_source: news/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/news/requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
+- name: Bandit
+  description: I write code and do math, sometimes at the same time. Ich bin in meiner
+    daten verheddert.
+  website_url: http://findingscience.com/rails/vanity/statistics/testing/2011/11/12/bandit:-a-b-testing-alternative-for-rails.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2571/DimQyv6-_normal.jpeg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
+- name: Black
+  description: Python code formatter
+  website_url: https://github.com/ambv/black
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10632/55281.jpeg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/dev-requirements.txt
+  detection_source: ".github/assign-reviewers/dev-requirements.txt"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-10 17:20:58.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/smoke-test-requirements.txt
+  detection_source: build/smoke-test-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-10-26 23:34:37.000000000 Z
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -276,8 +414,21 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-12 06:01:27.000000000 Z
+- name: Nose
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://nose.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3723/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/conda-functional-requirements.txt
+  detection_source: build/conda-functional-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
 - name: NumPy
   description: Fundamental package for scientific computing with Python
   website_url: http://www.numpy.org/
@@ -287,355 +438,44 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/functional-test-requirements.txt
+  detection_source: build/functional-test-requirements.txt
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-03-11 23:39:15.000000000 Z
+- name: Pandas
+  description: High-performance, easy-to-use data structures and data analysis tools
+    for the Python programming language
+  website_url: http://pandas.pydata.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2180/1284191.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/build/smoke-test-requirements.txt
   detection_source: build/smoke-test-requirements.txt
-- name: "@istanbuljs/nyc-config-typescript"
-  description: Nyc configuration that works with typescript
-  package_url: https://www.npmjs.com/@istanbuljs/nyc-config-typescript
-  version: 0.1.3
-  license: ISC
-  open_source: true
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2020-10-26 23:34:37.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
   hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/17448/default_feeb5f9682b10b4223ce6e22e98c891d2c0e3851.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/chai"
-  description: TypeScript definitions for chai
-  package_url: https://www.npmjs.com/@types/chai
-  version: 4.2.22
-  license: MIT
-  open_source: true
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/dev-requirements.txt
+  detection_source: ".github/assign-reviewers/dev-requirements.txt"
+  last_updated_by: Brett Cannon
+  last_updated_on: 2020-12-01 17:51:11.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
   hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/chai-as-promised"
-  description: TypeScript definitions for chai-as-promised
-  package_url: https://www.npmjs.com/@types/chai-as-promised
-  version: 7.1.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16527/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/fs-extra"
-  description: TypeScript definitions for fs-extra
-  package_url: https://www.npmjs.com/@types/fs-extra
-  version: 5.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/glob"
-  description: TypeScript definitions for Glob
-  package_url: https://www.npmjs.com/@types/glob
-  version: 5.0.37
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/lodash"
-  description: TypeScript definitions for Lo-Dash
-  package_url: https://www.npmjs.com/@types/lodash
-  version: 4.14.173
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/mocha"
-  description: TypeScript definitions for mocha
-  package_url: https://www.npmjs.com/@types/mocha
-  version: 5.2.7
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/nock"
-  description: Stub TypeScript definitions entry for nock
-  package_url: https://www.npmjs.com/@types/nock
-  version: 10.0.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16993/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/node"
-  description: TypeScript definitions for Node.js
-  package_url: https://www.npmjs.com/@types/node
-  version: 14.18.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/request"
-  description: TypeScript definitions for request
-  package_url: https://www.npmjs.com/@types/request
-  version: 2.48.7
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16354/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/semver"
-  description: TypeScript definitions for semver
-  package_url: https://www.npmjs.com/@types/semver
-  version: 5.5.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/sinon"
-  description: TypeScript definitions for Sinon
-  package_url: https://www.npmjs.com/@types/sinon
-  version: 7.5.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/tmp"
-  description: TypeScript definitions for tmp
-  package_url: https://www.npmjs.com/@types/tmp
-  version: 0.0.33
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/17575/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/uuid"
-  description: TypeScript definitions for uuid
-  package_url: https://www.npmjs.com/@types/uuid
-  version: 3.4.10
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@types/xml2js"
-  description: TypeScript definitions for node-xml2js
-  package_url: https://www.npmjs.com/@types/xml2js
-  version: 0.4.9
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/17763/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@typescript-eslint/eslint-plugin"
-  description: TypeScript plugin for ESLint
-  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
-  version: 3.10.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: "@typescript-eslint/parser"
-  description: An ESLint custom parser which leverages TypeScript ESTree
-  package_url: https://www.npmjs.com/@typescript-eslint/parser
-  version: 3.10.1
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: chai-as-promised
-  description: Extends Chai with assertions about promises
-  package_url: https://www.npmjs.com/chai-as-promised
-  version: 7.1.1
-  license: WTFPL
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: copy-webpack-plugin
-  description: Copy files &amp;&amp; directories with webpack
-  package_url: https://www.npmjs.com/copy-webpack-plugin
-  version: 5.1.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: cross-spawn
-  description: Cross platform child_process#spawn and child_process#spawnSync
-  package_url: https://www.npmjs.com/cross-spawn
-  version: 6.0.5
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: del
-  description: Delete files and directories
-  package_url: https://www.npmjs.com/del
-  version: 3.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: download
-  description: Download and extract files
-  package_url: https://www.npmjs.com/download
-  version: 7.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16861/default_89212c2fcd02701c275bb6c77ae7dd538cd4b9f2.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-config-airbnb
-  description: Airbnb's ESLint config, following our styleguide
-  package_url: https://www.npmjs.com/eslint-config-airbnb
-  version: 18.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-config-prettier
-  description: Turns off all rules that are unnecessary or might conflict with Prettier
-  package_url: https://www.npmjs.com/eslint-config-prettier
-  version: 8.3.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-plugin-import
-  description: Import with sanity
-  package_url: https://www.npmjs.com/eslint-plugin-import
-  version: 2.22.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-plugin-jsx-a11y
-  description: Static AST checker for accessibility rules on JSX elements
-  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
-  version: 6.3.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-plugin-react
-  description: React specific linting rules for ESLint
-  package_url: https://www.npmjs.com/eslint-plugin-react
-  version: 7.24.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: eslint-plugin-react-hooks
-  description: ESLint rules for React Hooks
-  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
-  version: 4.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-- name: expose-loader
-  description: Expose loader module for webpack
-  package_url: https://www.npmjs.com/expose-loader
-  version: 0.7.5
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16741/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/dev-requirements.txt
+  detection_source: ".github/assign-reviewers/dev-requirements.txt"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-10 17:20:58.000000000 Z
 - name: flat
   description: Take a nested Javascript object and flatten it
   package_url: https://www.npmjs.com/flat
@@ -646,8 +486,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2018-05-11 03:52:54.000000000 Z
   vulnerabilities:
   - name: flat vulnerable to Prototype Pollution
     cve_id: CVE-2020-36632
@@ -655,6 +497,475 @@ tools:
     detected_date: Dec 31
     severity: critical
     first_patched: 5.0.1
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Baptiste Darthenay
+  last_updated_on: 2022-02-16 19:20:05.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched:
+- name: xml2js
+  description: Simple XML to JavaScript object converter
+  package_url: https://www.npmjs.com/xml2js
+  version: 0.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ian Huff
+  last_updated_on: 2020-10-24 00:08:18.000000000 Z
+  vulnerabilities:
+  - name: xml2js is vulnerable to prototype pollution
+    cve_id: CVE-2023-0842
+    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
+    detected_date: Apr 8
+    severity: moderate
+    first_patched: 0.5.0
+- name: "@istanbuljs/nyc-config-typescript"
+  description: Nyc configuration that works with typescript
+  package_url: https://www.npmjs.com/@istanbuljs/nyc-config-typescript
+  version: 0.1.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17448/default_feeb5f9682b10b4223ce6e22e98c891d2c0e3851.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2022-03-08 11:45:05.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.2.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/chai-as-promised"
+  description: TypeScript definitions for chai-as-promised
+  package_url: https://www.npmjs.com/@types/chai-as-promised
+  version: 7.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16527/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/glob"
+  description: TypeScript definitions for Glob
+  package_url: https://www.npmjs.com/@types/glob
+  version: 5.0.37
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.173
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 5.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/nock"
+  description: Stub TypeScript definitions entry for nock
+  package_url: https://www.npmjs.com/@types/nock
+  version: 10.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16993/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/request"
+  description: TypeScript definitions for request
+  package_url: https://www.npmjs.com/@types/request
+  version: 2.48.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16354/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/sinon"
+  description: TypeScript definitions for Sinon
+  package_url: https://www.npmjs.com/@types/sinon
+  version: 7.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/tmp"
+  description: TypeScript definitions for tmp
+  package_url: https://www.npmjs.com/@types/tmp
+  version: 0.0.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17575/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 3.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@types/xml2js"
+  description: TypeScript definitions for node-xml2js
+  package_url: https://www.npmjs.com/@types/xml2js
+  version: 0.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17763/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 3.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 3.10.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
+- name: chai-as-promised
+  description: Extends Chai with assertions about promises
+  package_url: https://www.npmjs.com/chai-as-promised
+  version: 7.1.1
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 6.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Luciana Abud
+  last_updated_on: 2021-08-16 16:28:44.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
+- name: download
+  description: Download and extract files
+  package_url: https://www.npmjs.com/download
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16861/default_89212c2fcd02701c275bb6c77ae7dd538cd4b9f2.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2022-03-08 11:45:05.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2022-03-08 11:45:05.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2021-11-19 18:12:51.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-08-10 20:58:07.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-08-10 20:58:07.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
+- name: expose-loader
+  description: Expose loader module for webpack
+  package_url: https://www.npmjs.com/expose-loader
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16741/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: fs-extra
   description: Fs-extra contains methods that aren't included in the vanilla Node.js
     fs package
@@ -666,8 +977,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Logan Ramos
+  last_updated_on: 2022-01-11 19:59:36.000000000 Z
 - name: get-port
   description: Get an available port
   package_url: https://www.npmjs.com/get-port
@@ -678,8 +991,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2021-11-19 18:12:51.000000000 Z
 - name: glob
   description: A little globber
   package_url: https://www.npmjs.com/glob
@@ -690,8 +1005,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
 - name: gulp-rename
   description: Rename files
   package_url: https://www.npmjs.com/gulp-rename
@@ -702,8 +1019,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-08-10 20:58:07.000000000 Z
 - name: gulp-sourcemaps
   description: Source map support for Gulp.js
   package_url: https://www.npmjs.com/gulp-sourcemaps
@@ -714,8 +1033,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: gulp-typescript
   description: A typescript compiler for gulp with incremental compilation support
   package_url: https://www.npmjs.com/gulp-typescript
@@ -726,8 +1047,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16141/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-03-01 15:58:34.000000000 Z
 - name: hash.js
   description: Various hash functions that could be run by both browser and node
   package_url: https://www.npmjs.com/hash.js
@@ -738,8 +1061,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18535/default_facb3d90939b4d7da360a94dfdaff1a95a1a96ba.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: rchiodo
+  last_updated_on: 2020-09-22 00:22:45.000000000 Z
 - name: iconv-lite
   description: Convert character encodings in pure javascript
   package_url: https://www.npmjs.com/iconv-lite
@@ -750,8 +1075,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Luciana Abud
+  last_updated_on: 2021-11-08 23:50:35.000000000 Z
 - name: inversify
   description: A powerful and lightweight inversion of control container for JavaScript
     and Node.js apps powered by TypeScript
@@ -763,8 +1090,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17044/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2022-03-01 00:03:06.000000000 Z
 - name: lolex
   description: Fake JavaScript timers
   package_url: https://www.npmjs.com/lolex
@@ -775,8 +1104,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16378/default_9fc2581a53b2f4e6797b1162eca9d9d2f6deee1f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: rchiodo
+  last_updated_on: 2020-09-22 00:22:45.000000000 Z
 - name: md5
   description: Js function for hashing messages with MD5
   package_url: https://www.npmjs.com/md5
@@ -787,27 +1118,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16342/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
-- name: minimatch
-  description: A glob matcher in javascript
-  package_url: https://www.npmjs.com/minimatch
-  version: 3.0.4
-  license: ISC
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  vulnerabilities:
-  - name: minimatch ReDoS vulnerability
-    cve_id: CVE-2022-3517
-    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
-    detected_date: Oct 21
-    severity: high
-    first_patched: 3.0.5
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: mocha-junit-reporter
   description: A JUnit reporter for mocha
   package_url: https://www.npmjs.com/mocha-junit-reporter
@@ -818,8 +1132,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: nock
   description: HTTP server mocking and expectations library for Node.js
   package_url: https://www.npmjs.com/nock
@@ -830,8 +1146,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: rchiodo
+  last_updated_on: 2020-09-22 00:22:45.000000000 Z
 - name: nyc
   description: The Istanbul command line interface
   package_url: https://www.npmjs.com/nyc
@@ -842,8 +1160,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: reflect-metadata
   description: Polyfill for Metadata Reflection API
   package_url: https://www.npmjs.com/reflect-metadata
@@ -854,27 +1174,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
-- name: request
-  description: Simplified HTTP request client
-  package_url: https://www.npmjs.com/request
-  version: 2.88.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  vulnerabilities:
-  - name: Server-Side Request Forgery in Request
-    cve_id: CVE-2023-28155
-    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
-    detected_date: Mar 17
-    severity: moderate
-    first_patched: 
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: request-progress
   description: Tracks the download progress of a request made with mikeal/request
   package_url: https://www.npmjs.com/request-progress
@@ -885,8 +1188,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18529/default_6d0416098b5583c02111044f891c8f1f8e30a97e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Baptiste Darthenay
+  last_updated_on: 2022-02-16 19:20:05.000000000 Z
 - name: rimraf
   description: A deep deletion module for node
   package_url: https://www.npmjs.com/rimraf
@@ -897,8 +1202,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: rchiodo
+  last_updated_on: 2020-09-22 00:22:45.000000000 Z
 - name: rxjs-compat
   description: '&lt;img src="doc/asset/Rx_Logo_S.png" alt="RxJS Logo" width="86" height="86"&gt;
     RxJS: Reactive Extensions For JavaScript =================='
@@ -910,8 +1217,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16746/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Luciana Abud
+  last_updated_on: 2021-07-26 18:35:38.000000000 Z
 - name: shortid
   description: Amazingly short non-sequential url-friendly unique id generator
   package_url: https://www.npmjs.com/shortid
@@ -922,8 +1231,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16368/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Luciana Abud
+  last_updated_on: 2022-02-23 00:39:40.000000000 Z
 - name: source-map-support
   description: Fixes stack traces for files with source maps
   package_url: https://www.npmjs.com/source-map-support
@@ -934,8 +1245,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: tmp
   description: Temporary file and directory creator
   package_url: https://www.npmjs.com/tmp
@@ -946,8 +1259,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Don Jayamanne
+  last_updated_on: 2016-01-19 10:58:51.000000000 Z
 - name: ts-loader
   description: TypeScript loader for webpack
   package_url: https://www.npmjs.com/ts-loader
@@ -958,8 +1273,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: ts-node
   description: TypeScript execution environment and REPL for node.js
   package_url: https://www.npmjs.com/ts-node
@@ -970,8 +1287,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-12-13 16:26:09.000000000 Z
 - name: tsconfig-paths-webpack-plugin
   description: Load modules according to tsconfig paths in webpack
   package_url: https://www.npmjs.com/tsconfig-paths-webpack-plugin
@@ -982,8 +1301,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17311/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Luciana Abud
+  last_updated_on: 2022-02-23 00:39:40.000000000 Z
 - name: untildify
   description: 'Convert a tilde path to an absolute path: `~/dev` → `/Users/sindresorhus/dev`'
   package_url: https://www.npmjs.com/untildify
@@ -994,8 +1315,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18522/default_4ab681e38c50826e4ec993cd0190baa65b5e5d17.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
 - name: uuid
   description: RFC4122
   package_url: https://www.npmjs.com/uuid
@@ -1006,8 +1329,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Rich Chiodo
+  last_updated_on: 2018-10-30 18:44:07.000000000 Z
 - name: webpack-bundle-analyzer
   description: Webpack plugin and CLI utility that represents bundle content as convenient
     interactive zoomable treemap
@@ -1019,8 +1344,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Kartik Raj
+  last_updated_on: 2021-10-11 21:40:30.000000000 Z
 - name: webpack-cli
   description: CLI for webpack &amp; friends
   package_url: https://www.npmjs.com/webpack-cli
@@ -1031,8 +1358,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
 - name: webpack-merge
   description: Variant of merge that's useful for webpack configuration
   package_url: https://www.npmjs.com/webpack-merge
@@ -1043,8 +1372,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
 - name: webpack-node-externals
   description: Easily exclude node_modules in Webpack bundle
   package_url: https://www.npmjs.com/webpack-node-externals
@@ -1055,27 +1386,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16156/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
-- name: xml2js
-  description: Simple XML to JavaScript object converter
-  package_url: https://www.npmjs.com/xml2js
-  version: 0.4.23
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  vulnerabilities:
-  - name: xml2js is vulnerable to prototype pollution
-    cve_id: CVE-2023-0842
-    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
-    detected_date: Apr 8
-    severity: moderate
-    first_patched: 0.5.0
+  last_updated_by: Soojin Choi
+  last_updated_on: 2022-01-24 17:00:10.000000000 Z
 - name: yargs
   description: Yargs the modern, pirate-themed, successor to optimist
   package_url: https://www.npmjs.com/yargs
@@ -1086,12 +1400,14 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/package-lock.json
   detection_source: package.json
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-07-22 06:44:50.000000000 Z
 - name: anyio
   description: High level compatibility layer for multiple asynchronous event loop
     implementations
-  package_url: https://pypi.org/anyio
+  package_url: https://pypi.org/project/anyio
   version: 3.5.0
   license: MIT
   open_source: true
@@ -1099,11 +1415,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
-  detection_source_url: ".github/assign-reviewers/requirements.txt"
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/.github/assign-reviewers/requirements.txt
   detection_source: ".github/assign-reviewers/requirements.txt"
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2022-01-26 21:52:47.000000000 Z
 - name: importlib-metadata
   description: Read metadata from Python packages
-  package_url: https://pypi.org/importlib-metadata
+  package_url: https://pypi.org/project/importlib-metadata
   version: 3.10.1
   license: Apache-2.0
   open_source: true
@@ -1111,11 +1429,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-09-20 22:33:02.000000000 Z
 - name: jedi
   description: An autocompletion tool for Python that can be used for text editors
-  package_url: https://pypi.org/jedi
+  package_url: https://pypi.org/project/jedi
   version: 0.18.1
   license: MIT
   open_source: true
@@ -1123,11 +1443,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2022-01-25 07:31:06.000000000 Z
 - name: parso
   description: A Python Parser
-  package_url: https://pypi.org/parso
+  package_url: https://pypi.org/project/parso
   version: 0.8.3
   license: MIT
   open_source: true
@@ -1135,11 +1457,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-12-06 18:46:16.000000000 Z
 - name: pydantic
   description: Data validation and settings management using python 3.6 type hinting
-  package_url: https://pypi.org/pydantic
+  package_url: https://pypi.org/project/pydantic
   version: 1.8.2
   license: MIT
   open_source: true
@@ -1147,11 +1471,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Kim-Adeline Miguel
+  last_updated_on: 2021-09-20 22:33:02.000000000 Z
 - name: typeguard
   description: Run-time type checker for Python
-  package_url: https://pypi.org/typeguard
+  package_url: https://pypi.org/project/typeguard
   version: 2.13.3
   license: MIT
   open_source: true
@@ -1159,11 +1485,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20631/default_d09e302052af111fe85036106be862ae3cddee11.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2022-01-25 07:31:06.000000000 Z
 - name: zipp
   description: Backport of pathlib-compatible object wrapper for zip files
-  package_url: https://pypi.org/zipp
+  package_url: https://pypi.org/project/zipp
   version: 3.6.0
   license: MIT
   open_source: true
@@ -1171,5 +1499,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
-  detection_source_url: pythonFiles/jedilsp_requirements/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/pythonVSCode/blob/main/pythonFiles/jedilsp_requirements/requirements.txt
   detection_source: pythonFiles/jedilsp_requirements/requirements.txt
+  last_updated_by: Karthik Nadig
+  last_updated_on: 2021-10-04 18:20:13.000000000 Z
